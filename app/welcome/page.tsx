@@ -39,7 +39,6 @@ export default function Welcome() {
   });
   const [locationError, setLocationError] = useState(false);
   const [locationData, setLocationData] = useState<LocationData | null>(null);
-  const unsplashAccess = 'Ko6Z_4ZzIUiN7JzHnidZf_eYmIeGqYNfscpFAemWYUw';
   const [unsplashImage, setUnsplashImage] = useState<UnsplashImage>({
     url: "",
     alt: "",
